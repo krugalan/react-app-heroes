@@ -14,8 +14,7 @@ export const Navbar = () => {
         history.replace('/login')
         dispatch({
             type: types.logout
-        });        
-
+        });
     }
 
 
